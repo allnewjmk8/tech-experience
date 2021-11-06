@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Personality Quiz Starter Code</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1 id="head">Reincarnated as a Charging Cable: What type would you be?</h1>
+
+    <div class="block">
+      <h2>Do you like to travel?</h2>
+      <div class="question">
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Fjeshoots-com-mSESwdMZr-A-unsplash.jpg?v=1597266718946"
+          />
+          <br />
+          <button id="q1a1" onclick="disableq1a1()">
+            Yes, I'm a jet-setter at heart!
+          </button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Fannie-spratt-qyAka7W5uMY-unsplash.jpg?v=1597266797649"
+          />
+          <br />
+          <button id="q1a2" onclick="disableq1a2()">
+            Yes, but sometimes I like staying at home.
+          </button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Flink-hoang-UoqAR2pOxMo-unsplash.jpg?v=1597266780192"
+          />
+          <br />
+          <button id="q1a3" onclick="disableq1a3()">
+            No, but the occasional vacation is nice.
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <h2>How would your friends describe you?</h2>
+      <div class="question">
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Fnick-fewings-ASSkKOUQKoY-unsplash.jpg?v=1597266862299"
+          />
+          <br />
+          <button id="q2a1" onclick="disableq2a1()">Quirky</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Fnick-fewings-NweTfFWOVJk-unsplash.jpg?v=1597267037219"
+          />
+          <br />
+          <button id="q2a2" onclick="disableq2a2()">Basic</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Flaura-chouette-yiWc6-Zc8HU-unsplash.jpg?v=1597266885395"
+          />
+          <br />
+          <button id="q2a3" onclick="disableq2a3()">Classy</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Fduy-pham-Cecb0_8Hx-o-unsplash.jpg?v=1597266938705"
+          />
+          <br />
+          <button id="q2a4" onclick="disableq2a4()">Popular</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Faaron-burden-5p_hbvdcEvo-unsplash.jpg?v=1597266960427"
+          />
+          <br />
+          <button id="q2a5" onclick="disableq2a5()">Unique</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Fsebastien-le-derout-eMBahQSKmYs-unsplash.jpg?v=1597267081832"
+          />
+          <br />
+          <button id="q2a6" onclick="disableq2a6()">Old Fashioned</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <h2>What's your go to method for tackling a project?</h2>
+      <div class="question">
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Ferik-mclean-ZRns2R5azu0-unsplash.jpg?v=1597267252499"
+          />
+          <br />
+          <button id="q3a1" onclick="disableq3a1()">Fast and easy</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Ftiffany-nutt-0ClfreiNppM-unsplash.jpg?v=1597267270324"
+          />
+          <br />
+          <button id="q3a2" onclick="disableq3a2()">
+            Not fast but not slow
+          </button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Farek-adeoye-ljoCgjs63SM-unsplash.jpg?v=1597267291147"
+          />
+          <br />
+          <button id="q3a3" onclick="disableq3a3()">Slow and steady</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <h2>What age group do you most relate with?</h2>
+      <div class="question">
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Frobert-collins-tvc5imO5pXk-unsplash.jpg?v=1597267398602"
+          />
+          <br />
+          <button id="q4a1" onclick="disableq4a1()">Kids</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Feliott-reyna-axTm0ee3YP4-unsplash.jpg?v=1597267422363"
+          />
+          <br />
+          <button id="q4a2" onclick="disableq4a2()">Teens</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Fbrooke-cagle-g1Kr4Ozfoac-unsplash.jpg?v=1597267454059"
+          />
+          <br />
+          <button id="q4a3" onclick="disableq4a3()">Young Adults</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Fkae-ng-jyNcew0NfW0-unsplash.jpg?v=1597267497538"
+          />
+          <br />
+          <button id="q4a4" onclick="disableq4a4()">Adults</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Fsam-wheeler-tUyYnO_VdP0-unsplash.jpg?v=1597267519873"
+          />
+          <br />
+          <button id="q4a5" onclick="disableq4a5()">Elderly</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <h2>When something unexpected happens, are you quick to adapt?</h2>
+      <div class="question">
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Fbraden-collum-9HI8UJMSdZA-unsplash.jpg?v=1597267746681"
+          />
+          <br />
+          <button id="q5a1" onclick="disableq5a1()">
+            Yes, I'm ready for anything!
+          </button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Falora-griffiths-WX7FSaiYxK8-unsplash.jpg?v=1597267751639"
+          />
+          <br />
+          <button id="q5a2" onclick="disableq5a2()">
+            Yes, I'm pretty flexible.
+          </button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Fnick-abrams-FTKfX3xZIcc-unsplash.jpg?v=1597267751764"
+          />
+          <br />
+          <button id="q5a3" onclick="disableq5a3()">
+            No, it might take me a bit.
+          </button>
+        </div>
+
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/0d17b7f0-80ea-4270-a827-f647e70c4aa5%2Fpascal-van-de-vendel-81mllqC4JiU-unsplash.jpg?v=1597267789861"
+          />
+          <br />
+          <button id="q5a4" onclick="disableq5a4()">
+            No, I will just keep on going.
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="resultsButton">
+      <button id="resultsButton" onclick="disableGet()">Get Results</button>
+    </div>
+    <div class="resultsBlock" id="resultsBlock">
+      <h2>Results</h2>
+      <div class="question">
+        <div class="answer-choice">
+          <div class="results">
+            <h3 id="result"></h3>
+            <h4 id="resultText"></h4>
+            <h5>
+              All Results
+            </h5>
+          </div>
+          <div class="otherResults">
+            <h4 id="otherResult1"></h4>
+            <h4 id="otherResult2"></h4>
+            <h4 id="otherResult3"></h4>
+            <h4 id="otherResult4"></h4>
+            <h4 id="otherResult5"></h4>
+            <h4 id="otherResult6"></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="resultsButton">
+      <button id="reset" onclick="window.location.href=window.location.href">
+        Retake Quiz
+      </button>
+    </div>
+  </body>
+</html>
