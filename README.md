@@ -1,39 +1,51 @@
-# Personal Website Starter Project
+## Personality Quiz Starter Project
 
-This is a place for you to start building your first project -- your personal website!
+Remix this starter code or just use it to see how you might get started on your personality quiz.
+
+Click `Show` in the header to see your app live. We recommend choosing the `Next to Code` option so you can view updates to your webpage side-by-side to your code. 
+
+Updates to your code will instantly deploy and update live.
 
 ## Project Requirements
+Your quiz should:
 
-Your project should:
+* Have at least three questions.
+* Have at least four choices per question.
+* Allow the user to select an answer choice by clicking a button or photo.
+* Produce different results for different combinations of selections.
 
-- Include one "Home" HTML page (that will be index.html) that's all about you!
-- Include one "Portfolio" HTML page that will showcase the projects you build in class.
-- Include a navigation bar that is included on all your website's pages.
-- Have all text, image(s), links, and/or videos on the page contained within appropriate HTML elements.
+## Project Extensions
+Once you meet the basic requirements, you might:
 
-## Extensions
+* **Extension 1:** Lengthen your quiz with more questions.
+* **Extension 2:** Allow the user to retake or restart the quiz.
+* **Extension 3:** Change your JavaScript to disable buttons after the user has selected an answer.
+* **Extension 4:** Improve the user experience of your quiz.
+* **Extension 5:** Make your website more accessible.
+* **Extension 6:** Change your JavaScript to allow a user to change their selections at any point before they finish the quiz.
 
-You can extend your project further by:
+## Starter Code File Overview
 
-- Creating a "Blog" HTML page that you can use to write blog posts with your readers!
-- Adding accessibility features to your website.
+### ← README.md
 
-# Starter Code File Overview
+That's this file, where you can tell people what your cool website does and how you built it. You can also include instructions on how to run your quiz!
 
-Your full activity instructions are in HQ, but here's a little cheat-sheet of the files in this project:
+### ← index.html
 
-## ← index.html
+Where you'll write the content of your personality quiz and code the layout for each element.
+The layout for all three questions have already been done for you, but if you want to add more questions you will need to edit this file. 
 
-This is your homepage. It should be the first page that you work on.
+### ← style.css
 
-## ← portfolio.html
+CSS files add styling rules to your content. Once you finished programming your personality quiz add some styling to make your quiz look professional! 
+We highly encourage you to try to google some styling for your images! Don't forget to change up the colors and fonts of your website!
 
-This will be your portfolio page.
+### ← script.js
 
-## ← script.js
+We will be working mainly in this file to add interactivity to the buttons on our quiz! You will learn how to code variables, conditionals, events, event listeners, and functions in Javascript.
 
-Later this week, you'll get fancy with the ability to add interactivity to your site with JavaScript. For now, there's no need to edit this file!
+### ← assets
 
-## ← styles.css
+Drag in `assets`, like images or music, to add them to your project. You can use images online and grab their URL Address or use some of your own images.
 
-The file for your styles! You don't need to worry about editing this file right now. You'll learn more about CSS styling tomorrow.
+Be sure that your images can be accessed digitally. If you want to use print photos, take a picture of it and then upload them in the assets folder.
