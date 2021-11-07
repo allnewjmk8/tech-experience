@@ -1,1 +1,1 @@
-This repository contains projects from programs I've participated throughout high school.
+This repository contains projects from Girls Who Code's Summer Immersion Program - Accelerated.
